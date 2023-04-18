@@ -1,0 +1,18 @@
+{
+	"name": "tiny-css-reset",
+	"version": "1.0.0",
+	"description": "A CSS reset that preserves sensible browser defaults",
+	"main": "./dist/reset.min.css",
+	"scripts": {
+		"build": "uglifycss src/reset.css > dist/reset.min.css"
+	},
+	"keywords": [
+		"css reset",
+		"tiny css reset"
+	],
+	"author": "tinytinytinytiny",
+	"license": "ISC",
+	"devDependencies": {
+		"uglifycss": "^0.0.29"
+	}
+}
