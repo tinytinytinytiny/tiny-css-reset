@@ -1,6 +1,6 @@
 {
 	"name": "tiny-css-reset",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A CSS reset that preserves sensible browser defaults",
 	"main": "./dist/reset.min.css",
 	"scripts": {
