@@ -6,15 +6,21 @@ A CSS reset that preserves sensible browser defaults
 
 NPM:
 
-`npm install tiny-css-reset`
+```
+npm install tiny-css-reset
+```
 
 Unpkg CDN:
 
-`<link rel="stylesheet" href="https://unpkg.com/tiny-css-reset/dist/reset.min.css" />`
+```
+<link rel="stylesheet" href="https://unpkg.com/tiny-css-reset/dist/reset.min.css" />
+```
 
 jsDelivr CDN:
 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny-css-reset/dist/reset.min.css" />`
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny-css-reset/dist/reset.min.css" />
+```
 
 ## License
 
