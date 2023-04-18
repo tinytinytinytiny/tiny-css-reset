@@ -6,12 +6,20 @@
 	"scripts": {
 		"build": "uglifycss src/reset.css > dist/reset.min.css"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tinytinytinytiny/tiny-css-reset.git"
+	},
 	"keywords": [
 		"css reset",
 		"tiny css reset"
 	],
 	"author": "tinytinytinytiny",
 	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/tinytinytinytiny/tiny-css-reset/issues"
+	},
+	"homepage": "https://github.com/tinytinytinytiny/tiny-css-reset#readme",
 	"devDependencies": {
 		"uglifycss": "^0.0.29"
 	}
