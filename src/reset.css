@@ -12,7 +12,8 @@
 	display: none;
 }
 
-html, body {
+html,
+body {
 	overflow-x: -moz-hidden-unscrollable;
 	overflow-x: clip;
 }
@@ -66,4 +67,8 @@ select {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+button {
+	touch-action: manipulation;
 }
