@@ -19,6 +19,7 @@ body {
 }
 
 html {
+	-moz-text-size-adjust: none;
 	-webkit-text-size-adjust: none;
 	text-size-adjust: none;
 }
@@ -36,10 +37,6 @@ h5,
 h6 {
 	overflow-wrap: break-word;
 	text-wrap: pretty;
-}
-
-a:not([class]) {
-	text-decoration-skip-ink: auto;
 }
 
 [role="list"] {
