@@ -1,72 +1,75 @@
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
+@layer reset {
 
-* {
-	margin: 0;
-}
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
 
-[hidden] {
-	display: none;
-}
+	* {
+		margin: 0;
+	}
 
-html,
-body {
-	overflow-x: -moz-hidden-unscrollable;
-	overflow-x: clip;
-}
+	[hidden] {
+		display: none;
+	}
 
-html {
-	-moz-text-size-adjust: none;
-	-webkit-text-size-adjust: none;
-	text-size-adjust: none;
-}
+	html,
+	body {
+		overflow-x: -moz-hidden-unscrollable;
+		overflow-x: clip;
+	}
 
-body {
-	min-height: 100vh;
-}
+	html {
+		-moz-text-size-adjust: none;
+		-webkit-text-size-adjust: none;
+		text-size-adjust: none;
+	}
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	overflow-wrap: break-word;
-	text-wrap: pretty;
-}
+	body {
+		min-height: 100vh;
+	}
 
-[role="list"] {
-	list-style: none;
-	padding: 0;
-}
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		overflow-wrap: break-word;
+		text-wrap: pretty;
+	}
 
-img,
-picture,
-video {
-	max-width: 100%;
-	display: block;
-}
+	[role="list"] {
+		list-style: none;
+		padding: 0;
+	}
 
-img {
-	height: auto;
-}
+	img,
+	picture,
+	video {
+		max-width: 100%;
+		display: block;
+	}
 
-input,
-button,
-textarea,
-select {
-	font: inherit;
-}
+	img {
+		height: auto;
+	}
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+	input,
+	button,
+	textarea,
+	select {
+		font: inherit;
+	}
 
-button {
-	touch-action: manipulation;
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	button {
+		touch-action: manipulation;
+	}
 }
